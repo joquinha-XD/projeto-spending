@@ -48,7 +48,7 @@
 
 .spending{
     background-color: white;
-    height: 400px;
+    height: 420px;
     width: 500px;
     margin-top: 20px;
     border-radius: 15px;
@@ -57,4 +57,260 @@
 
 .title{
     font-size: 25px;
+}
+
+.all-days{
+    display: flex;
+    width: 430px;
+    justify-content: space-between;
+    align-items: end;
+    height: 240px;
+    color: var(--brown-400);
+    padding-bottom: 20px;
+    border-bottom: 2px solid var(--red-100);
+}
+
+.mon{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-mon{
+    border-radius: 5px;
+    height: 45px;
+    width: 40px;
+    background-color: var(--red-500);
+    margin-bottom: 10px;
+}
+
+.hover-mon{
+    background-color: black;
+    width: 60px;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: var(--red-100);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    display: none;
+}
+
+.color-mon:hover{
+    cursor: pointer;
+    background-color: hsl(10, 63%, 71%);
+}
+
+.tue{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-tue{
+    border-radius: 5px;
+    height: 85px;
+    width: 40px;
+    background-color: var(--red-500);
+    margin-bottom: 10px;
+}
+
+.color-tue:hover{
+    cursor: pointer;
+    background-color: hsl(10, 63%, 71%);
+}
+
+.hover-tue{
+    background-color: black;
+    width: 60px;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: var(--red-100);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    display: none;
+}
+
+.wed{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-wed{
+    border-radius: 5px;
+    height: 120px;
+    width: 40px;
+    background-color: var(--blue-300);
+    margin-bottom: 10px;
+}
+
+.hover-wed{
+    background-color: black;
+    width: 60px;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: var(--red-100);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    display: none;
+}
+
+.color-wed:hover{
+    cursor: pointer;
+    background-color: hsl(186, 44%, 76%);
+}
+
+.thu{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-thu{
+    border-radius: 5px;
+    height: 75px;
+    width: 40px;
+    background-color: var(--red-500);
+    margin-bottom: 10px;
+}
+
+.hover-thu{
+    background-color: black;
+    width: 60px;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: var(--red-100);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    display: none;
+}
+
+.color-thu:hover{
+    cursor: pointer;
+    background-color: hsl(10, 63%, 71%);
+}
+
+.fri{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-fri{
+    border-radius: 5px;
+    height: 55px;
+    width: 40px;
+    background-color: var(--red-500);
+    margin-bottom: 10px;
+}
+
+.hover-fri{
+    background-color: black;
+    width: 60px;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: var(--red-100);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    display: none;
+}
+
+.color-fri:hover{
+    cursor: pointer;
+    background-color: hsl(10, 63%, 71%);
+}
+
+.sat{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-sat{
+    border-radius: 5px;
+    height: 95px;
+    width: 40px;
+    background-color: var(--red-500);
+    margin-bottom: 10px;
+}
+
+.hover-sat{
+    background-color: black;
+    width: 60px;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: var(--red-100);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    display: none;
+}
+
+.color-sat:hover{
+    cursor: pointer;
+    background-color: hsl(10, 63%, 71%);
+}
+
+.sun{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-sun{
+    border-radius: 5px;
+    height: 60px;
+    width: 40px;
+    background-color: var(--red-500);
+    margin-bottom: 10px;
+}
+
+.hover-sun{ 
+    background-color: black;
+    width: 60px;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: var(--red-100);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    display: none;
+}
+
+.color-sun:hover{
+    cursor: pointer;
+    background-color: hsl(10, 63%, 71%);
 }
